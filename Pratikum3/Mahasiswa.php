@@ -12,7 +12,7 @@ class Mahasiswa extends orang{
 
 }
 
-class Mahasiswa extends Mahasiswa {
+class Mahasiswaasing extends Mahasiswa {
     
     //override
     public function ucapSalam(){

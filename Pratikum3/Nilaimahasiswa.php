@@ -54,7 +54,25 @@
         <td>" . $mhs1->getTugas() . "<td>
         <td>" . $mhs1->getUts() . "<td>
         <td>" . $mhs1->getUas() . "<td>
-         <td>" . $mhs1->getTotalNilai() . "<td>
+        <td>" . $mhs1->getTotalNilai() . "<td>
+        </tr>";
+
+        echo "<tr>
+        <td>2<td>
+        <td>Amalia<td>
+        <td>" . $mhs2->getTugas() . "<td>
+        <td>" . $mhs2->getUts() . "<td>
+        <td>" . $mhs2->getUas() . "<td>
+        <td>" . $mhs2->getTotalNilai() . "<td>
+        </tr>";
+
+        echo "<tr>
+        <td>3<td>
+        <td>Udin<td>
+        <td>" . $mhs3->getTugas() . "<td>
+        <td>" . $mhs3->getUts() . "<td>
+        <td>" . $mhs3->getUas() . "<td>
+        <td>" . $mhs3->getTotalNilai() . "<td>
         </tr>";
         ?>
 

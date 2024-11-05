@@ -14,7 +14,7 @@ include "bankcustomer.php";
         <?php
             $nasabah = new BankCustomer();
             $nasabah->setCustomerName('Amalia Aisaturadia');
-            $nasabah->setAddress('Timor Leste');
+            $nasabah->setAddress('Swish');
             $nasabah->setEmail('amaliaaisaturadia@gmail.com');
             $nasabah->setCard('Prioritas');
             $nasabah->getAcc('Jane');

@@ -26,11 +26,10 @@
         $mahasiswa = new Mahasiswa("Emely Smith");
         $mahasiswa->ucapsalam();
 
-        $mahasiswainggris = new Mahasiswa("amalia");
-        $mahasiswa->ucapsalam();
+        $mahasiswainggris = new Mahasiswaasing("amalia");
+        $mahasiswainggris->ucapsalam();
 
         
-
 
         ?>
 
