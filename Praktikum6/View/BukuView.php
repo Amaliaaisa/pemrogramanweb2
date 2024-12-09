@@ -19,11 +19,9 @@
                 <thead>
                     <tr>
                         <?php foreach($Data->getKolomTabel() as $kolom): ?>
-
                             <th scope="col">
                                 <?php echo $kolom?>
                             </th>
-
                        <?php endforeach; ?>
                        <th>Aksi</th>
                     </tr>
@@ -31,7 +29,6 @@
                 <tbody>
                     <?php $no = 0;?>
                     <?php foreach($Data->getData() as $buku): ?>
-
                         <tr>
                             <td><?php echo ++$no; ?></td>
                             <td><?php echo $buku->getJudul(); ?></td>
@@ -42,7 +39,6 @@
                                 <a href="/inedex.php/edit?id=<?php echo $buku->getid();?>"class="btn btn succes">Edit</a>
                                 <button class="btn-danger" data-bs-target="modal" data-bs-target="#hapusModal" data-bs-id="<?php echo $buku->getid();?> ">Hapus</botton>
                     </tr>
-
                     <?php endforeach;?>
                 </tbody>
             </table>

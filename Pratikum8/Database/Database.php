@@ -8,7 +8,7 @@ class Database{
     private $koneksi;
 
     public function __construct (){
-        $this->koneksi = new mysqli($this->host, $this->username, $this->password, $this->databaseName);
+        $this->koneksi = new mysqli ($this->host, $this->username, $this->password, $this->databaseName);
         
     }
 
