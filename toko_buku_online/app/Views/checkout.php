@@ -17,7 +17,7 @@
                 <tr>
                     <th scope="row">1</th>
                     <td>
-                        <img src="<?= base_url('image/image1.png'); ?>" alt=" "style="width: 150px; height:auto;">
+                        <img src="<?= base_url('images/image(1) - Salin.jpeg'); ?>" alt=" "style="width: 150px; height:auto;">
                         <h6>172 Days</h6>
                     </td>
                     <td>

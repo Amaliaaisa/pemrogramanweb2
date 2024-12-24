@@ -22,17 +22,39 @@
                     </li>
 
                 </ul>
-                <div class="ml-3">
+                <?php if(auth()->loggedIn()):?>
+                <div class="ms-3">
                 <a href="<?= base_url('logout')?>" class="btn btn-secondary">Logout</a>
                 </div>
+                <?php endif;?>
             </div>
         </div>
     </nav>
-<?= $this->renderSection('main');?>
+    
+    <div class="container">
+        <div class="row">
+            <div class="col-3">
+                <h2 class="mb-5">Menu</h2>
+            <div class="list-group">
+  <a href="<?= base_url('admin/dashboard')?>" class="list-group-item list-group-item-action <?= current_url() == base_url('admin/dashboard') ? 'active' : ''?> " aria-current="true">
+   Dashboard
+  </a>
+  <a href="<?= base_url('index.php/admin/data/daftar-buku')?>" class="list-group-item list-group-item-action"<? current_url('admin/dashboard') ? 'active' : '' ?> " Daftar Buku </a>
+
+ 
+</div>
+            </div>
+            <div class="col-9">
+                <?= $this->renderSection('main')?>
+            </div>
+        </div>
+    </div>
+
     <footer class="bg-danger-subtle py-5">
             <div class="container">
                 <span>copyright &copy; 2024. E-Commerce kelas 3C. All rights reserved.</span>
             </div>
+
         </footer>
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
 </body>

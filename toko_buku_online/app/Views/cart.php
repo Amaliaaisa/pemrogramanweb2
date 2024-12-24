@@ -1,10 +1,10 @@
-<?= $this->extend('template')?>
+<?= $this->extend('template') ?>
 
-<?= $this->section('main')?>
+<?= $this->section('main') ?>
 
 <div class="container">
     <h2 class="mb-3">Cart</h2>
-    <div class="">
+    <div class="mb-3">
         <table class="table table-stripped">
             <thead>
                 <tr>
@@ -18,9 +18,9 @@
             </thead>
             <tbody>
                 <tr>
-                    <th scope="row"><1</th>
+                    <th scope="row">1</th>
                     <td>
-                        <img src="<?= base_url('image/image1.png'); ?>" alt=" "style="width: 150px; height:auto;">
+                        <img src="<?= base_url('images/image(1) - Salin.jpeg'); ?>" alt="" style="width: 150px; height:auto;">
                         <h6>172 Days</h6>
                     </td>
                     <td>
@@ -33,7 +33,7 @@
                         Rp65.000
                     </td>
                     <td>
-                        <a href="<?=base_url('cart/delete')?>" class="btn btn_danger">Hapus</a>
+                        <a href="<?= base_url('cart/delete')?>" class="btn btn-danger">Hapus</a>
                     </td>
                 </tr>
             </tbody>
@@ -41,7 +41,7 @@
     </div>
     <h4 class="mb-3">Total: Rp170.000</h4>
     <div class="mb-3">
-        <a href="<?= base_url('checkout')?>" class="btn-ptimary">Checkout</a>
+        <a href="<?= base_url('checkout')?>" class="btn btn-primary">Checkout</a>
     </div>
 </div>
 

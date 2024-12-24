@@ -1,6 +1,6 @@
-<? $this->extend('template')?>
+<?= $this->extend('template')?>
 
-<? $this->section('main')?>
+<?= $this->section('main')?>
 
     <div class="container p-5 bg-danger-subtle rounded-bottom-4">
         <h1>Selamat Datang di toko buku online</h1>
@@ -43,4 +43,4 @@
             </div>
         </div>  
     </div>
-    <?= $this->endSection()?>
+<?= $this->endSection()?>

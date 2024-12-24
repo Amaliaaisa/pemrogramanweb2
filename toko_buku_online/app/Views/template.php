@@ -33,6 +33,11 @@
                         </span>
                     </a>
                 </div>
+                <?php if(auth()->loggedIn()):?>
+                    <div class="ms-3">
+                        <a href="<?=base_url('logout');?>" class="btn btn-info">Logout</a>
+                    </div>
+                    <?php endif;?>
             </div>
         </div>
     </nav>

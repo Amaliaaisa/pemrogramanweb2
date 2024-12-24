@@ -23,4 +23,7 @@ class Home extends BaseController
     public function submit(){
         return view('submit');
     }
+    public function images($file=null){
+        return $this->response->download(WRITEPATH . 'uploads/images/' .$file, null);
+    }
 }
