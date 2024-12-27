@@ -1,0 +1,50 @@
+[
+    {
+        "nik": "123",
+        "nama": "Misbahudin",
+        "jenisKelamin": "1",
+        "agama": "Islam",
+        "golongan": "I",
+        "gajiPokok": "1500000"
+    },
+    {
+        "nik": "456",
+        "nama": "Budi",
+        "jenisKelamin": "1",
+        "agama": "Islam",
+        "golongan": "II",
+        "gajiPokok": "500000"
+    },
+    {
+        "nik": "990",
+        "nama": "Joko",
+        "jenisKelamin": "1",
+        "agama": "Islam",
+        "golongan": "III",
+        "gajiPokok": "519000"
+    },
+    {
+        "nik": "014",
+        "nama": "Dewi",
+        "jenisKelamin": "0",
+        "agama": "Islam",
+        "golongan": "I",
+        "gajiPokok": "201800"
+    },
+    {
+        "nik": "912",
+        "nama": "Jani",
+        "jenisKelamin": "0",
+        "agama": "Hindu",
+        "golongan": "III",
+        "gajiPokok": "491929"
+    },
+    {
+        "nik": "10",
+        "nama": "galih",
+        "jenisKelamin": "1",
+        "agama": "Islam",
+        "golongan": "I",
+        "gajiPokok": "50000000"
+    }
+]

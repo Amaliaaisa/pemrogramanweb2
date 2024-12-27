@@ -2,7 +2,7 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <title>Welcome to CodeIgniter 4!</title>
+    <title>Halaman blog</title>
     <meta name="description" content="The small framework with powerful features">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="shortcut icon" type="image/png" href="/favicon.ico">
@@ -14,7 +14,7 @@
             transition: background-color 300ms ease, color 300ms ease;
         }
         *:focus {
-            background-color: rgba(221, 72, 20, .2);
+            background-color: rgba(199, 10, 123, 0.2);
             outline: none;
         }
         html, body {
@@ -28,7 +28,7 @@
             text-rendering: optimizeLegibility;
         }
         header {
-            background-color: rgba(247, 248, 249, 1);
+            background-color: rgb(172, 22, 47);
             padding: .4rem 0 0;
         }
         .menu {
